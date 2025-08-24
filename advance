@@ -23,7 +23,7 @@ TODO:
 
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-  Title = "AdvanceTech Arsenal",
+  Title = "Mini Hub",
   Text = "Working For Mobile and PC Executor",
   Duration = 8,
 })
@@ -55,10 +55,10 @@ game:GetService("RunService").Heartbeat:connect(function(step)if flying and c an
 
 
 local Library    = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window     = Library.CreateLib("AdvanceTech | Arsenal | v1.9", "BlueTheme")
+local Window     = Library.CreateLib("Mini Hub | Arsenal | v1.9", "BlueTheme")
 
 local Welcome     = Window:NewTab("Main")
-local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. game.Players.LocalPlayer.Name)
+local MainSection = Welcome:NewSection("Welcome To Mini Hub| " .. game.Players.LocalPlayer.Name)
 local HitboxSection = Welcome:NewSection("> Hitbox Settings <")
 --[[
 local SilentTab   = Welcome:NewSection("> Silent Aim <")
@@ -1144,7 +1144,7 @@ local function enableParticles()
   local runLoop = false
   
   local function names()
-      local edited_name = "AdvanceChan UwU"
+      local edited_name = "Mini Hub UwU"
       local edited_killfeed = "UwU im a horny femboy who needs a big BBC"
   
       local gui = LocalPlayer.PlayerGui
@@ -1158,7 +1158,7 @@ local function enableParticles()
       Workspace.KillFeed["5"].Killer.Value = edited_killfeed
       Workspace.KillFeed["6"].Killer.Value = edited_killfeed
       gui.GUI.Winner.Visible = false
-      gui.GUI_Scorecard.Scorecard.PlayerCard.Username.Text = "AdvanceFalling Team"
+      gui.GUI_Scorecard.Scorecard.PlayerCard.Username.Text = "Mini Hub Team"
   end
   
   local function restores_name()
@@ -1622,8 +1622,8 @@ end)
 
 local Credit = Window:NewTab("Credits")
 local Section = Credit:NewSection("Credits")
-local Section = Credit:NewSection("Script Developed by: AdvanceFalling Team")
-Section:NewDropdown("Developer", "Dev", {"YellowGreg", "WspBoy12", "MMSVon", "ShadowClark", "Frostbite"}, function(currentDeveloper)
+local Section = Credit:NewSection("Script Developed by: Mini Hub")
+Section:NewDropdown("Developer", "Dev", {"Adonis"}, function(currentDeveloper)
     local creations = {
         YellowGreg = "Owner",
         WspBoy12 = "Head Developer",
